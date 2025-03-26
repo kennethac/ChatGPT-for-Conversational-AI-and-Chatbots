@@ -1,7 +1,7 @@
 import os
 import openai
 
-base_url = os.environ.get("OPENAI_BASE_URL")
+base_url = os.environ.get("OPENAI_BASE_URL") or "http://localhost:11434/v1"
 api_key = os.environ.get("OPENAI_API_KEY") or "ollama"
 model_name = os.environ.get("MODEL_NAME") or "llama3.2" if api_key == "ollama" else "gpt-3.5-turbo"
 
