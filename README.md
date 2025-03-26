@@ -1,3 +1,15 @@
+# ChatGPT for Conversational AI and Chatbots with updates
+
+This repository contains an updated version of the original repository for the book *ChatGPT for Conversational AI and Chatbots*, published by Packt. The updates mainly include:
+
+- Support for reproducible Python execution using setup scripts and a pip requirements file.
+- Support for other OpenAI compatible providers, for example Ollama. This is the default provider when you run each project, but the provider, model and API key can be updated in environment variables as needed.
+- A .NET implementation of each example is added.
+
+No updates have been made to the Node.js examples.
+
+The original readme is below.
+
 # ChatGPT for Conversational AI and Chatbots
 
 <a href="https://www.packtpub.com/en-us/product/chatgpt-for-conversational-ai-and-chatbots-9781805129530?type=print"><img src="https://m.media-amazon.com/images/I/61QAJPEb0-L._SL1233_.jpg" alt=" ChatGPT for Conversational AI and Chatbots" height="256px" align="right"></a>
